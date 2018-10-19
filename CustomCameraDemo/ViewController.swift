@@ -34,9 +34,13 @@ class ViewController: UIViewController {
         do{
             //初始化输入,输出
             session = AVCaptureSession()
+            
             let device = AVCaptureDevice.default(for: .video)
             videoInput = try AVCaptureDeviceInput(device: device!)
+            
             photoOutput = AVCaptureStillImageOutput()
+            let outPutsetting = [AVVideoCodecKey : AVVideoCodecJPEG]
+            photoOutput?.outputSettings = outPutsetting
             
             session?.addInput(videoInput!)
             session?.addOutput(photoOutput!)
