@@ -14,6 +14,7 @@
 		81D768102179BB1F00A325D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D7680E2179BB1F00A325D4 /* LaunchScreen.storyboard */; };
 		81D7681B2179BB1F00A325D4 /* CustomCameraDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7681A2179BB1F00A325D4 /* CustomCameraDemoTests.swift */; };
 		81D768262179BB1F00A325D4 /* CustomCameraDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D768252179BB1F00A325D4 /* CustomCameraDemoUITests.swift */; };
+		81D768342179C4ED00A325D4 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D768332179C4ED00A325D4 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		81D768212179BB1F00A325D4 /* CustomCameraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCameraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D768252179BB1F00A325D4 /* CustomCameraDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraDemoUITests.swift; sourceTree = "<group>"; };
 		81D768272179BB1F00A325D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D768332179C4ED00A325D4 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				81D768052179BB1E00A325D4 /* AppDelegate.swift */,
 				81D768072179BB1E00A325D4 /* ViewController.swift */,
+				81D768332179C4ED00A325D4 /* UIImage+Extension.swift */,
 				81D768092179BB1E00A325D4 /* Main.storyboard */,
 				81D7680C2179BB1F00A325D4 /* Assets.xcassets */,
 				81D7680E2179BB1F00A325D4 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D768342179C4ED00A325D4 /* UIImage+Extension.swift in Sources */,
 				81D768082179BB1E00A325D4 /* ViewController.swift in Sources */,
 				81D768062179BB1E00A325D4 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LXW2N3HK6S;
 				INFOPLIST_FILE = CustomCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LXW2N3HK6S;
 				INFOPLIST_FILE = CustomCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
